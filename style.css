@@ -1,0 +1,109 @@
+/* Body Section */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    display: flex;
+    flex: 1;
+}
+
+/* Section One */
+.section-one {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.image {
+    border: 20px;
+    background-color: gray;
+    padding: 80px;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+  }
+
+.website {
+    width: 300px;
+  }
+
+.website-name {
+    color: F9FAF8;
+    font-size: 48px;
+}
+
+/* Section Two */
+
+
+.section-two-title {
+    text-align: center;
+    margin: 50px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #1F2937;
+ }
+ 
+ .boxes {
+     display: flex;
+     margin: 50px;
+     justify-content: center;
+ }
+ 
+ .box {
+     height: 140px;
+     width: 140px;
+     border: thick solid;
+     color: #3882f6;
+     margin: 20px;
+ }
+ 
+ 
+ .section-two {
+     display: flex;
+     flex-direction: column;
+     flex-grow: 1;
+     justify-content: flex-start;
+ }
+
+ /* Section Three */
+
+ .section-three {
+    background-color: #E5E7EB;
+    display: flex;
+}
+
+/* Section Four */
+
+.action-section {
+    display: flex;
+}
+
+/* Footer Section */
+
+footer { 
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+}
