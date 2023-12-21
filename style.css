@@ -56,35 +56,42 @@ ul {
 
 /* Section Two */
 
+.section-two {
+    display: flex;
+    flex-direction: column;
+    flex-grow: .1;
+    justify-content: flex-start;
+
+}
 
 .section-two-title {
     text-align: center;
-    margin: 50px;
-    font-size: 26px;
+    margin: 30px;
+    margin-bottom: 20px;
+    font-size: 36px;
     font-weight: bold;
-    color: #1F2937;
+    color: hsl(215, 28%, 17%);
  }
  
  .boxes {
-     display: flex;
-     margin: 50px;
-     justify-content: center;
+    display: flex;
+    /* margin: 50px; */
+    justify-content: center;
+    gap: 20px;
  }
  
  .box {
-     height: 140px;
-     width: 140px;
-     border: thick solid;
-     color: #3882f6;
-     margin: 20px;
+    height: 120px;
+    width: 120px;
+    border: thick solid;
+    color: #3882f6;
+    margin: 14px;
  }
- 
- 
- .section-two {
-     display: flex;
-     flex-direction: column;
-     flex-grow: 1;
-     justify-content: flex-start;
+
+ .text {
+    width: 140px;
+    margin-left: 10px;
+    text-align: center;
  }
 
  /* Section Three */
@@ -92,12 +99,70 @@ ul {
  .section-three {
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
+    flex-grow: .5;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+
+}
+
+.quote {
+    /* text-align: center; */
+    width: 600px;
+    font-size: 30px;
+    color: #1F2937;
+    align-self: center;
+    /* font-style: italic; */
+    /* font-weight: 100; */
+}
+
+.author {
+    text-align: center;
+    margin-left: 340px;
 }
 
 /* Section Four */
 
-.action-section {
+/* .section-four{
+    justify-content: center;
+    align-items: center;
+} */
+
+.section-four {
     display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-self: center;
+    background-color: #3882f6;
+    /* padding: 40px; */
+    width: 600px;
+    height: 70px;
+    justify-content: space-evenly;
+}
+
+.section-four-title {
+    color: white;
+    font-size: 20px;
+}
+
+.section-four-description {
+    color: white;
+}
+
+.action-section {
+    align-self: center;
+}
+
+.section-four-button {
+    height: 25px;
+    justify-content: center;
+    align-self: center;
+    width: 80px;
+    border-style: groove;
+    background-color: #3882f6;
+    color: white;
+    border-color: white;
 }
 
 /* Footer Section */
@@ -106,4 +171,9 @@ footer {
     background-color: #1F2937;
     color: white;
     display: flex;
+    justify-content: center;
+}
+
+.footer-text {
+    margin: 30px;
 }
